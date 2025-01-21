@@ -99,7 +99,7 @@ server.use((req, res) => {
 // 5. Specify port.
 server.listen(30000, ()=>{
   console.log('Server is running at 3200');
-  // connectToMongoDB();
-  connectUsingMongoose();
+   connectToMongoDB();
+  //connectUsingMongoose();
 });
 
